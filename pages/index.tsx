@@ -12,7 +12,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.Home}>
-      <h1>Accueil du Blog</h1>
+      <h1>Bienvenue sur mon blog</h1>
+      <div className={styles.Description}>
+        Je suis Jean-Baptiste, développeur Web reconverti. Je viens de terminer ma formation Intégrateur / Développeur Web chez OpenClassRooms.
+        <br/>
+        Je souhaite ouvrir ce blog afin de poster ici régulièrement mon avancement dans ma nouvelle vie de développeur web. 
+      </div>
       </main>
     </>
   )

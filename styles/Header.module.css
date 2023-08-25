@@ -1,7 +1,7 @@
 .Header{
-
     padding: 20px;
-    border-bottom: 1px solid ;
+    background: #182C61;
+    border-bottom: 1px solid #25CCF7;
 }
 
 .Header ul {
@@ -9,17 +9,24 @@
     align-items: center;
     gap: 10px;
     list-style: none;
+    justify-content: center;
+    letter-spacing: 5px;
 }
 
 .Header li a {
     text-decoration: none;
-    color: #000;
+    color: #cfcfcf;
     font-weight: 800;
     padding: 10px;
    
 }
 
-.Header li:hover{
+
+
+.Header li:hover, .Header li a:hover, .Header li a.active{
     transform: scale(1.2);
     transition: ease-in-out 0.3s;
+    text-transform: uppercase;
+    color: #25CCF7;
+
 }
