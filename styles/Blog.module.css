@@ -1,0 +1,16 @@
+.Blog {
+    padding: 20px;
+}
+
+.Featured {
+    position: relative;
+    width: 1000px;
+    aspect-ratio: 16/9;
+    margin-bottom: 20px;
+}
+
+.Featured img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}

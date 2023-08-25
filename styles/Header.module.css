@@ -1,0 +1,25 @@
+.Header{
+
+    padding: 20px;
+    border-bottom: 1px solid ;
+}
+
+.Header ul {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+}
+
+.Header li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 800;
+    padding: 10px;
+   
+}
+
+.Header li:hover{
+    transform: scale(1.2);
+    transition: ease-in-out 0.3s;
+}
